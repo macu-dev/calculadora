@@ -1,0 +1,120 @@
+@import '/css/fonts/Mansalva/mansalva.css';
+@import '/css/animate/animate.min.css';
+
+div > p {
+  font-family: 'Mansalva';
+  font-size: 60px;
+  position: absolute;
+  margin: 70px;
+  color: white;
+  text-shadow: 3px 2px black;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  
+}
+
+#calculadora {
+  width: 350px;
+  border: 1px solid #ebb;
+  height: 435px;
+  margin: 80px auto ;
+  left:150px;
+  position: relative;
+  padding:0px;
+  overflow: hidden;
+  background-image: linear-gradient(to top left,#fb0091,#fb8691,#fce2ae);
+  border-radius: 6px; 
+  /* redondea las esquinas */
+}
+
+#pantalla {
+  border-bottom:1px solid #faa;
+  /* borde para abajo */
+  width: calc(100% - 16px);
+  height: 68px;
+  margin: 0px;
+  padding: 8px;
+  background-color: #ffffffbb;
+  
+}
+
+#cuenta{
+  text-align:left;
+  color: black;
+  font-size: 26px;
+}
+
+#resultado{
+  text-align:right;
+  color: black;
+  font-size: 36px;
+}
+ html{
+   height: 100%;
+ }
+body{
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); 
+  background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#teclado{
+  padding:8px;
+}
+
+#teclado > div{
+  display:inline-block;
+  
+}
+
+#numeros > button {
+  width: 73px;
+  height: 75px;
+  margin: 4px;
+  
+}
+
+#numeros{
+  width: calc(100% - 32px - 46px);
+  height:calc(100% - 16px);
+  padding-bottom: 4px;
+}
+#operaciones{
+  width: 40px;
+  height: calc(100% - 16px);
+  padding-bottom: 4px;
+}
+
+#operaciones > button {
+  width: 70px;
+  height: 75px;
+  margin: 4px;
+}
+
+#igual{
+  width: 244px !important;
+  position: relative;
+  left: -175px !important;
+
+}
+button{
+  background-image: linear-gradient(to top left, #ffb6b9,#fce2ae);
+  border:none;
+  border-radius: 3px;
+}
+  
+button:hover{
+  background-image: linear-gradient(to top left,#fce2ae,  #ffb6b9);
+ 
+}
+button:active{
+  background-image: linear-gradient(to top left,#fce2aeaa,  #ffb6b9aa);
+  border:1px solid #a99;
+  
+}
+button:focus{
+  outline: none;
+}
+  
