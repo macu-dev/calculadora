@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width;height=device-height, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Calculadora</title>
   <link rel="stylesheet" href="css/style.css">
@@ -13,30 +13,30 @@
   </div>
     <div id="calculadora">
       <div id="pantalla">
-        <div id="cuenta"> 1+1</div>
+        <div id="cuenta"></div>
         <div id="resultado">2</div>
       </div>
       <div id="teclado">
         <div id="numeros">
-          <button>1</button>
-          <button>2</button> 
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>0</button>
+          <button id="1" onclick="botones(event)">1</button>
+          <button id="2" onclick="botones(event)">2</button> 
+          <button id="3" onclick="botones(event)">3</button>
+          <button id="4" onclick="botones(event)">4</button>
+          <button id="5" onclick="botones(event)">5</button>
+          <button id="6" onclick="botones(event)">6</button>
+          <button id="7" onclick="botones(event)">7</button>
+          <button id="8" onclick="botones(event)">8</button>
+          <button id="9" onclick="botones(event)">9</button>
+          <button id="0" onclick="botones(event)">0</button>
         </div>
         <div id="operaciones">
-          <button>AC</button>
-          <button>+</button>
-          <button>-</button>
-          <button id="igual">=</button>
+          <button onclick="AC()">AC</button>
+          <button onclick="botones(event)">+</button>
+          <button onclick="botones(event)">-</button>
+          <button id="igual" onclick="igual()">=</button>
         </div>
       </div>
-      
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
