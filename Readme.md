@@ -1,3 +1,3 @@
 # calculadora
 
-my proyect is about the calculator.
+my proyect is about a calculator.
